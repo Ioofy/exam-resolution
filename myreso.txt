@@ -1,0 +1,11 @@
+i want to learn :
+
+Python:
+- tensorflow about keras and deeplearning
+- webscrapping and telegrambots
+
+Web development/design:
+- Django framework
+- CSS/HTML
+- JS
+- Laravel/CI framework

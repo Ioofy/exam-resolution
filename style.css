@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+
+/*control span button in navbar 
+.navbar .navbar-toggler{
+    margin-right: 480px;
+}*/
+.noHover{
+    pointer-events: none;
+}
+.navbar-brand img {
+    width: 47px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+
+.mynav .collapse a:hover{
+    border-bottom: 2px solid #292A2D;
+}
+
+.dropdown-menu .dropdown-item img {
+    width: 22px;
+    height: 22px;
+}
+
+.carousel-item .carousel-caption{
+    margin-bottom: 250px;
+}
+
+.carousel-item .carousel-caption .display-4 {
+    font-family: 'Raleway';
+}
+
+.carousel-item .carousel-caption #hr1{
+    border-color: white;
+    width: 150px;
+    border-width: 3px;
+}
+
+.carousel-item .carousel-caption #hr2{
+    border-color: white;
+    width: 150px;
+    border-width: 3px;
+}
+
+.carousel-item .carousel-caption #hr3{
+    border-color: black;
+    width: 150px;
+    border-width: 3px;
+}
+
+.carousel-caption p{
+    font-family: 'Raleway';
+    font-weight: bolder;
+}
+
+.carousel-inner a{
+    font-family: 'Raleway';
+}
+/*ini adalah style slider*/
+
+.carousel-item {
+    height: 770px; 
+}
+
+
+/*setting Ini adalah style jumbotron
+
+.jumbotron {
+    background-image: url(img/jumbobg.png);
+    background-size: cover; 
+    height: 770px;
+    text-align: center;
+    background-position-y: -70px;
+    font-family: 'Raleway';
+}
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 110px;
+}
+
+.jumbotron p{
+    color: white;
+    font-family: 'Raleway';
+    font-size:  25px;
+}
+
+.jumbotron hr{
+    border-color: #F05F40;
+    width: 150px;
+    border-width: 2px; /* ketebalan border
+}
+
+.jumbotron .btn{
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left:  25px;
+    margin-bottom: -50px;
+}*/
+
+
+/* About.html style */
+.jumbotron{
+    background-color: #292A2D;
+}
+.jumbotron img{
+    width: 220px;
+    border: 2px solid #666;
+}
+
+.jumbotron h1{
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+}
+.jumbotron p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.about hr{
+    width: 250px;
+    border-top: 2px solid #212529;
+}
+
+
+.about p, h2{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.portofolio{
+    background-color: #292A2D;
+}
+
+
+.portofolio h3{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.portofolio hr{
+    width: 250px;
+    border-top: 2px solid white;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+.contact hr{
+    width: 250px;
+    border-top: 2px solid #212529;
+}
+
+.contact h3{
+    font-family: 'Balsamiq Sans', cursive;;
+
+}
+
+.contact h3{
+    font-family: 'Balsamiq Sans', cursive;;
+}
+
+/* Icon style */
+
+.social-menu ul{
+    display: flex;
+    margin-left: -35px;
+    margin-top: -5px;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 5px;
+}
+
+.social-menu ul li .fa{
+    font-size: 25px; /*size logo*/
+    line-height: 40px; /* semakin besar semakin turun*/
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li .fa:hover{
+    color: #fff;
+
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10px);
+
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #34465d
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #3b5999;
+}
+
+body #artikel {
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body #info {
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body #tentang {
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body #trakter{
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body #contact{
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body #navbarDropdown {
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+html{
+    position: relative;
+}
+
+body {
+    background-color: none;/*#292A2D;*/
+    margin-bottom: 100px;
+}
+
+section{
+    min-height: 600px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #292A2D;
+    padding-top: 35px;
+
+}
+
+footer p, a{
+    color: white;
+}
